@@ -3,7 +3,7 @@
  * Prices are whole Indian rupees. Product order = Featured order.
  * Duplicate a product to add a listing; give it a unique, permanent id.
  * Set active: false to hide a product. Sizes express preferences, not stock.
- * Put product PNGs in assets/products/ and list their paths under images.
+ * Put optimised product WebP images in assets/products/ and list their paths under images.
  * The first image is the cover; extra images get view-switching buttons.
  * Keep all private keys, payment details and customer data out of this file.
  */
@@ -33,11 +33,11 @@ window.STORE = {
       "active": true,
       "images": [
         {
-          "src": "assets/products/script-front.png",
+          "src": "assets/products/script-front.webp",
           "label": "Front view"
         },
         {
-          "src": "assets/products/script-back.png",
+          "src": "assets/products/script-back.webp",
           "label": "Back view"
         }
       ]
@@ -61,7 +61,7 @@ window.STORE = {
       "active": true,
       "images": [
         {
-          "src": "assets/products/washed-olive-shirt.png",
+          "src": "assets/products/washed-olive-shirt.webp",
           "label": "Front view"
         }
       ]
@@ -85,11 +85,11 @@ window.STORE = {
       "active": true,
       "images": [
         {
-          "src": "assets/products/signature-front.png",
+          "src": "assets/products/signature-front.webp",
           "label": "Front view"
         },
         {
-          "src": "assets/products/signature-back.png",
+          "src": "assets/products/signature-back.webp",
           "label": "Back view"
         }
       ]
@@ -113,7 +113,7 @@ window.STORE = {
       "active": true,
       "images": [
         {
-          "src": "assets/products/coral-button-down.png",
+          "src": "assets/products/coral-button-down.webp",
           "label": "Front view"
         }
       ]
@@ -137,7 +137,7 @@ window.STORE = {
       "active": true,
       "images": [
         {
-          "src": "assets/products/rust-track-shirt.png",
+          "src": "assets/products/rust-track-shirt.webp",
           "label": "Front view"
         }
       ]
@@ -161,7 +161,7 @@ window.STORE = {
       "active": true,
       "images": [
         {
-          "src": "assets/products/orange-joggers.png",
+          "src": "assets/products/orange-joggers.webp",
           "label": "Front view"
         }
       ]
@@ -185,7 +185,7 @@ window.STORE = {
       "active": true,
       "images": [
         {
-          "src": "assets/products/heritage-jeans.png",
+          "src": "assets/products/heritage-jeans.webp",
           "label": "Front view"
         }
       ]
@@ -209,7 +209,7 @@ window.STORE = {
       "active": true,
       "images": [
         {
-          "src": "assets/products/vintage-jeans.png",
+          "src": "assets/products/vintage-jeans.webp",
           "label": "Front view"
         }
       ]
@@ -233,7 +233,7 @@ window.STORE = {
       "active": true,
       "images": [
         {
-          "src": "assets/products/charcoal-jeans.png",
+          "src": "assets/products/charcoal-jeans.webp",
           "label": "Front view"
         }
       ]
@@ -257,7 +257,7 @@ window.STORE = {
       "active": true,
       "images": [
         {
-          "src": "assets/products/panel-jeans.png",
+          "src": "assets/products/panel-jeans.webp",
           "label": "Front view"
         }
       ]
@@ -281,7 +281,7 @@ window.STORE = {
       "active": true,
       "images": [
         {
-          "src": "assets/products/ocean-jeans.png",
+          "src": "assets/products/ocean-jeans.webp",
           "label": "Front view"
         }
       ]
@@ -301,5 +301,5 @@ window.STORE = {
     "Khoya Mandi Bus Stop Road",
     "Near Globe Café, Raebareli"
   ],
-  "logo": "assets/menshood-logo-charcoal.png"
+  "logo": "assets/menshood-logo-charcoal.webp"
 };

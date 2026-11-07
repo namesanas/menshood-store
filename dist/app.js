@@ -16,7 +16,7 @@
   const productImages = p => p.images;
   const art = (p, extra='', index=0, decorative=false) => {
     const photo=productImages(p)[index];
-    return `<img class="product-art ${extra}" src="${esc(photo.src)}" alt="${decorative?'':`${esc(p.name)}, ${esc(p.color)}, ${esc(photo.label.toLowerCase())}`}" ${decorative?'aria-hidden="true"':''} loading="lazy" decoding="async">`;
+    return `<img class="product-art ${extra}" src="${esc(photo.src)}" alt="${decorative?'':`${esc(p.name)}, ${esc(p.color)}, ${esc(photo.label.toLowerCase())}`}" ${decorative?'aria-hidden="true"':''} loading="${extra.includes('gallery-image')?'eager':'lazy'}" decoding="async">`;
   };
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   function motion(element,frames,options={}){
