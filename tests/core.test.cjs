@@ -39,7 +39,7 @@ test('Catalogue paths, IDs, prices and contact configuration are valid',()=>{
     assert.equal(new Set(p.sizes).size,p.sizes.length);
     assert.ok(p.images.length>0);
     for(const image of p.images){
-      assert.match(image.src,/^assets\/products\/[a-z0-9-]+\.png$/);
+      assert.match(image.src,/^assets\/products\/[a-z0-9-]+\.(?:png|webp)$/);
       assert.ok(image.label);
       assert.ok(fs.existsSync('dist/'+image.src),image.src+' missing');
     }
