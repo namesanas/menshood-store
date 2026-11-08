@@ -64,3 +64,9 @@ Product PNGs are cleaned and straightened edits of owner-supplied Instagram scre
 ## Launch status
 
 The existing ChatGPT Site remains owner-private with `noindex`. Before a public launch, confirm size/stock data, garment measurements, shipping terms, returns/exchanges and payment arrangements, then explicitly change the Site audience. No license is granted to third parties for the brand or clothing imagery by this repository.
+
+
+
+### Storefront animation
+
+`dist/motion.js` contains the entrance and one-time scroll reveals; adjust its `timing` values to change the pace. `dist/motion.css` controls hover, dialog, drawer, and menu effects. No animation libraries or additional image files are required. Reduced-motion preferences are respected, and the page remains visible if the motion script cannot load.
